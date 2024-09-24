@@ -30,7 +30,7 @@ const StockNews = () => {
   
           
 
-          <div className="mt-2 mb-4">
+          <div className="Stock-card">
             <h2 className="text-2xl text-slate-700 hover:text-blue-600 font-bold  ">Stock Market News</h2>
           </div>
   

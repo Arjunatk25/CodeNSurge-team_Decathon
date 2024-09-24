@@ -35,7 +35,7 @@ const WeatherNews = () => {
   
           
 
-          <div className="mt-2 mb-4">
+          <div className="weather-card">
             <h2 className="text-2xl text-slate-700 hover:text-blue-600 font-bold ">Weather News</h2>
           </div>
   
