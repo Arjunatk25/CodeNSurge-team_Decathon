@@ -87,7 +87,7 @@ body {
   }
   .card .content{
    
-    text-align: justify;
+    text-align: center;
   }
   .card button{
     background-color: rgb(29, 162, 214);
@@ -97,7 +97,8 @@ body {
     height: 28px;
     color: white;
     font-size: 13px;
-    border-radius: 2px;
+    border-radius: 50px;
+    
   }
   .categoryBtn{
     display: flex;
@@ -139,7 +140,6 @@ body {
     height: 38px;
     margin-left: 600px;
     border-radius: 20px;
-    padding: 30px;
 
   }
   

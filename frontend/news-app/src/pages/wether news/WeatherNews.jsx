@@ -13,7 +13,7 @@ const WeatherNews = () => {
   
           const data =  await response.json()
           console.log(data.articles)
-          setNewsData(data.articles.slice(0,5))
+          setNewsData(data.articles.slice(0,8))
       }
       
       useEffect(()=>{

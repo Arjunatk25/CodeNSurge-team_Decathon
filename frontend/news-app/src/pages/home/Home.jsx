@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../../components/NavBar'
 import StockNews from '../Stock news/StockNews'
 import WeatherNews from '../wether news/WeatherNews'
+import BreakingNews from '../breaking/BreakingNews'
 
 
 const Home = () => {
@@ -10,6 +11,9 @@ const Home = () => {
       <header>
         <NavBar />
       </header>
+      <div>
+        <BreakingNews />
+      </div>
 
       <StockNews />
       <div className="mt-3">
