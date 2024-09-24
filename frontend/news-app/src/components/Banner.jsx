@@ -1,4 +1,5 @@
 import React from 'react'
+import { useState } from 'react'
 
 const Banner = () => {
 
@@ -20,7 +21,7 @@ const Banner = () => {
 
   return (
     <div>
-
+b
 
     </div>
   )
@@ -28,7 +29,7 @@ const Banner = () => {
 
 export default Banner
 
-{/*
+/*{
     
     import React, { useState } from 'react';
 
@@ -67,4 +68,4 @@ const App = () => {
 };
 
 export default App;
-    */}
+    }*/
