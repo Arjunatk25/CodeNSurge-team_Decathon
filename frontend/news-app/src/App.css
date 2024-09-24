@@ -1,7 +1,7 @@
 #root {
-  max-width: 1280px;
+  max-width: cover;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 0%;
   text-align: center;
 }
 
@@ -39,4 +39,263 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+/* ======= Footer style ======= */
+.footer {
+  background-image: url(./images/bg-footer.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: scroll
+}
+
+.footer-logo {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.newsletter {
+  padding: 1rem 0rem;
+
+}
+
+.newsletter .container {
+  align-items: center;
+}
+
+.newsletter h2 {
+  color: #fff;
+  margin: 5px 0px;
+}
+
+.newsletter p {
+  color: #aaa;
+}
+
+.newsletter .form form {
+  display: flex;
+  padding: 0rem 0rem;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.newsletter .form form input {
+  width: 200px;
+  padding: 0px 10px;
+  height: 40px;
+  border: none;
+  background-color: #fff;
+}
+.newsletter form button {
+  width: 150px;
+  height: 40px;
+  border: none;
+  background-color: #000;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* second footer */
+.second-footer {
+  background-color: #000000d0;
+  padding: 4rem 0rem;
+
+  border-bottom: 1px solid rgba(5, 5, 5, 0.1);
+}
+
+
+.second-footer .box {
+  max-width: 450px;
+}
+
+;
+
+
+.second-footer .title {
+  padding: 0;
+  margin-bottom: 10px;
+  color: #fff;
+  padding: 15px 0px;
+
+}
+
+.second-footer .text p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #bbb;
+  padding: 15px 0px;
+}
+
+.second-footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+.second-footer ul li {
+  padding: 1px 0px;
+}
+
+.second-footer ul li a,
+.second-footer ul li span {
+  font-size: 14px;
+  font-weight: 400;
+  color: #aaa;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+.footer .box ul li a:hover {
+  color: #fff;
+}
+
+.copyright {
+  background-color: #000000c1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.51rem 6%;
+
+}
+
+.copyright p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+.copyright p a {
+  color: #f1f1f1;
+}
+
+.social-icons {
+  display: flex;
+  color: #fff;
+  gap: 1rem;
+}
+
+.social-icons a {
+  display: flex;
+  color: #a50707;
+  gap: 1rem;
+  text-decoration: none;
+}
+
+
+.footcontainer{
+  padding: 1.2rem 6%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }

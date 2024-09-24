@@ -54,7 +54,7 @@ body {
     justify-content: center;
     gap:41px;
     flex-wrap: wrap;
-  
+    box-shadow: black ;
   }
   
   .card{
@@ -86,7 +86,8 @@ body {
     cursor: pointer;
   }
   .card .content{
-    padding: 9px;
+   
+    text-align: justify;
   }
   .card button{
     background-color: rgb(29, 162, 214);
@@ -123,3 +124,4 @@ body {
     font-weight: 600;
     font-size: 26px;
   }
+  
