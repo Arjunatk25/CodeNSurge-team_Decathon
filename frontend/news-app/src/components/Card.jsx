@@ -10,7 +10,7 @@ const Card = ({ data }) => {
           return null;
         } else {
           return (
-            <div className="card">
+            <div className="card ">
               <img src={currentItem.urlToImage} />
               <div className="content">
                 <a className="title">{currentItem.title}</a>
