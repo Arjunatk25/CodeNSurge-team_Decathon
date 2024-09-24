@@ -1,4 +1,5 @@
 import React from 'react'
+import Banner from './Banner'
 
 const NavBar = () => {
 
@@ -18,6 +19,11 @@ const NavBar = () => {
             <button className="mx-2 rounded-xl hover:text-white text-lg">Search</button>
           </div>
         </nav>
+
+        {/* This is for Banner */}
+        <div className=" h-80 mt-16">
+          <Banner />
+        </div>
 
       </div>
     )

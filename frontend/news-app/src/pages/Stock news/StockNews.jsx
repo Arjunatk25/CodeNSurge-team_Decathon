@@ -14,7 +14,7 @@ const StockNews = () => {
   
           const data =  await response.json()
           console.log(data.articles)
-          setNewsData(data.articles)
+          setNewsData(data.articles.slice(0,5))
       }
       
       useEffect(()=>{
