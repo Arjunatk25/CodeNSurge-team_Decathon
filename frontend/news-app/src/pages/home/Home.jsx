@@ -7,10 +7,14 @@ import WeatherNews from '../wether news/WeatherNews'
 const Home = () => {
   return (
     <div>
-        <StockNews />
-       <div className="mt-3">
+      <header>
+        <NavBar />
+      </header>
+
+      <StockNews />
+      <div className="mt-3">
         <WeatherNews />
-       </div>
+      </div>
 
 
     </div>
